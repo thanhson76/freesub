@@ -4,18 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 53617,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
-        }
+      "server": "2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "5f091cbe-fb34-11ea-9777-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com",
+        "insecure": true
       }
     },
     {

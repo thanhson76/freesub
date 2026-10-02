@@ -4,26 +4,30 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇵🇪 秘鲁 (Peru) 01 - xiaohe",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16322,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "type": "trojan",
+      "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe",
+      "server": "109.110.162.40",
+      "server_port": 23005,
+      "password": "fac593ac-d6aa-4523-bea9-b3eb2a2b3da3",
+      "tls": {
+        "enabled": true,
+        "server_name": "82.yuanul.com",
+        "insecure": false
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇪 秘鲁 (Peru) 01 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇪 秘鲁 (Peru) 01 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
