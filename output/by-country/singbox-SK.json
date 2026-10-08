@@ -5,18 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-      "server": "45.134.9.133",
-      "server_port": 8443,
-      "uuid": "a6d20e79-d326-42c1-bc20-f4cecc6dc42d",
-      "tls": {
-        "enabled": true,
-        "server_name": "ul-mexico1.09vpn.com",
-        "insecure": true
-      },
+      "tag": "🇸🇰 斯洛伐克 (Slovakia) 01 - xiaohe",
+      "server": "80.243.228.84",
+      "server_port": 2085,
+      "uuid": "84a7add6-dab3-4af4-900b-192e3e338875",
       "transport": {
-        "type": "ws",
-        "path": "/vless/"
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
@@ -24,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇸🇰 斯洛伐克 (Slovakia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇸🇰 斯洛伐克 (Slovakia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
